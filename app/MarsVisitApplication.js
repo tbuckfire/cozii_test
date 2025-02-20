@@ -109,8 +109,8 @@ export default function MarsVisitApplication() {
             <input {...register("emergencyContact")} placeholder="Emergency Contact" className="block w-full p-2 border mt-2" />
             {errors.emergencyContact && <p className="text-red-500">{errors.emergencyContact.message}</p>}
 
-            {/* Medical Conditions */}
-            <textarea {...register("medicalConditions")} placeholder="List any medical conditions (if applicable)" className="block w-full p-2 border mt-2"/>
+            {/* Medical Conditions (Optional Input) */}
+            <input {...register("medicalConditions")} placeholder="Medical Conditions (if applicable)" className="block w-full p-2 border mt-2" />
           </>
         )}
         
