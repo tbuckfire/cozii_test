@@ -1,0 +1,87 @@
+/* Mars-themed styles */
+body {
+    background: radial-gradient(circle, #3d0e08, #1a0000);
+    color: #ffddb8;
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+  }
+  
+  /* Form container styling */
+  form {
+    background: rgba(255, 69, 0, 0.1);
+    border: 2px solid #ff4500;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(255, 69, 0, 0.6);
+  }
+  
+  /* Headings and text */
+  h2 {
+    font-size: 24px;
+    font-weight: bold;
+    text-shadow: 0 0 10px #ff4500;
+  }
+  
+  /* Input fields */
+  input, select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ff4500;
+    border-radius: 5px;
+    background: rgba(255, 69, 0, 0.2);
+    color: white;
+  }
+  
+  /* Error messages */
+  .text-red-500 {
+    color: #ff6347;
+    font-size: 14px;
+  }
+  
+  /* Buttons */
+  button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  /* Mars-colored buttons */
+  .bg-gray-500 {
+    background: #8b0000;
+    color: white;
+  }
+  .bg-gray-500:hover {
+    background: #a52a2a;
+  }
+  
+  .bg-blue-500 {
+    background: #ff4500;
+    color: white;
+  }
+  .bg-blue-500:hover {
+    background: #ff6347;
+  }
+  
+  .bg-green-500 {
+    background: #ff8c00;
+    color: white;
+  }
+  .bg-green-500:hover {
+    background: #ffa500;
+  }
+  
+  /* Adding a futuristic glow effect */
+  button:hover {
+    box-shadow: 0 0 15px rgba(255, 69, 0, 0.8);
+  }
+  
+  /* Make form centered and responsive */
+  .max-w-lg {
+    max-width: 600px;
+    margin: 50px auto;
+  }
+  
