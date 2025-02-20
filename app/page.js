@@ -1,1 +1,12 @@
-export default function Home() { return <h1>Hello, Mars!</h1>; }
+"use client";
+
+import MarsVisitApplication from "./MarsVisitApplication";
+
+export default function Home() {
+  return (
+    <main>
+      <h1>Hello, Mars!</h1>
+      <MarsVisitApplication />
+    </main>
+  );
+}
